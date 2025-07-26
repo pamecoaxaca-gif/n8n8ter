@@ -1,0 +1,12 @@
+app = "n8"
+
+primary_region = "iad" # Washington DC (puedes cambiarlo)
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "3000"
+
+[experimental]
+  auto_rollback = true
